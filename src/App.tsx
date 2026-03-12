@@ -11,7 +11,7 @@ function App() {
   return (
     <MantineProvider>
       <Router>
-        <Navigation />
+        {/* <Navigation /> */}
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
