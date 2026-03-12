@@ -1,0 +1,55 @@
+.about-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+
+.about-page .mantine-Container-root {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.about-page h1 {
+  color: white;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.about-page .mantine-Text-root {
+  color: rgba(255, 255, 255, 0.95);
+  font-size: 1.1rem;
+}
+
+.about-page .tech-stack {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  padding: 2rem;
+  margin: 2rem 0;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.about-page .tech-stack h3 {
+  color: #f5576c;
+  margin-bottom: 1rem;
+}
+
+.about-page .tech-stack ul {
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+.about-page .tech-stack li {
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.about-page .mantine-Button-root {
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.about-page .mantine-Button-root:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}

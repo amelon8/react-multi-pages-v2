@@ -1,0 +1,69 @@
+.contact-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+}
+
+.contact-page .mantine-Container-root {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.contact-page h1 {
+  color: white;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.contact-page .mantine-Text-root {
+  color: rgba(255, 255, 255, 0.95);
+  font-size: 1.1rem;
+}
+
+.contact-page form {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  margin: 2rem 0;
+}
+
+.contact-page .mantine-TextInput-root,
+.contact-page .mantine-Textarea-root {
+  margin-bottom: 1.5rem;
+}
+
+.contact-page .mantine-TextInput-root label,
+.contact-page .mantine-Textarea-root label {
+  color: #333;
+  font-weight: 600;
+}
+
+.contact-page .mantine-TextInput-input,
+.contact-page .mantine-Textarea-input {
+  border-color: #ddd;
+}
+
+.contact-page .mantine-Button-root {
+  width: 100%;
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  border: none;
+  color: white;
+  font-weight: 600;
+  padding: 0.75rem;
+  transition: all 0.3s ease;
+}
+
+.contact-page .mantine-Button-root:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.contact-page .flex {
+  margin-top: 2rem;
+}
+
+.contact-page .mantine-Button-root {
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}

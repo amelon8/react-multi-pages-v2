@@ -1,0 +1,69 @@
+.info-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+}
+
+.info-page .mantine-Container-root {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.info-page h1 {
+  color: white;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.info-page .mantine-Text-root {
+  color: rgba(255, 255, 255, 0.95);
+  font-size: 1.1rem;
+}
+
+.info-page .cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.info-page .mantine-Card-root {
+  background: rgba(255, 255, 255, 0.95);
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.info-page .mantine-Card-root:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.15);
+}
+
+.info-page .mantine-Card-root h3 {
+  color: #fa709a;
+  margin-bottom: 1rem;
+}
+
+.info-page .mantine-Card-root p {
+  color: #555;
+  line-height: 1.6;
+}
+
+.info-page .mantine-Button-root {
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.info-page .mantine-Button-root:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  .info-page .cards-grid {
+    grid-template-columns: 1fr;
+  }
+}
